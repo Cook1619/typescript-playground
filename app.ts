@@ -13,3 +13,14 @@ const phrase = 'The result is: '
 
 const result = add(num1, num2, printResult, phrase);
 console.log(result);
+
+
+const person: {
+  name: string;
+  age: number;
+} = {
+  name: 'Matt',
+  age: 33
+}
+
+console.log(person.name)
